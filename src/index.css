@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+
+.VideoArise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 160px;
+  font-weight: 600;
+  color: white;
+  font-family: "Arimo", sans-serif;
+  gap: 10px;
+}
+.VideoArise span {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.VideoArise:hover span:nth-child(1) {
+  color: red;
+  transform: scale(1.1);
+  transition-delay: 0.2s;
+}
+
+.VideoArise:hover span:nth-child(2) {
+  color: red;
+  transform: scale(1.15);
+  transition-delay: 0.3s;
+}
+
+.VideoArise:hover span:nth-child(3) {
+  /* 'I' in ARISE */
+  color: red;
+  transform: scale(1.2);
+  transition-delay: 0.4s;
+}
+
+.VideoArise:hover span:nth-child(4) {
+  color: red;
+  transform: scale(1.15);
+  transition-delay: 0.5s;
+}
+
+.VideoArise:hover span:nth-child(5) {
+  color: red;
+  transform: scale(1.15);
+  transition-delay: 0.6s;
+}
