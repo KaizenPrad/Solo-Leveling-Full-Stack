@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
    <>
     <div className="nav h-17 bg-black flex justify-between m-0 text-white  font-bold">
-        <span className='Change cursor-pointer text-4xl py-3  px-14'>Solo Leveling</span>
+       <img src="./Logo.png "alt=""  className='height-[68px]'/>
         <ul className='flex gap-9 text-lg py-5 px-18'>
             <li>
-                <Link to="/Home">Characters</Link>
+                <Link to="/Characters">Characters</Link>
             </li>
             <li>
             <Link to="/Episodes">Episodes</Link>
